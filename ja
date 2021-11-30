@@ -1,4 +1,6 @@
 --Settings--
+while true do 
+    wait(1)
 local ESP = {
     Enabled = true,
     Boxes = true,
@@ -16,6 +18,7 @@ local ESP = {
     Objects = setmetatable({}, {__mode="kv"}),
     Overrides = {}
 }
+end
 
 --Declarations--
 local cam = workspace.CurrentCamera
