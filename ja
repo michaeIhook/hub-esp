@@ -10,8 +10,8 @@ local ESP = {
     TeamColor = true,
     Thickness = 1,
     AttachShift = 1,
-    TeamMates = true,
-    Players = true,
+    TeamMates = false,
+    Players = false,
     
     Objects = setmetatable({}, {__mode="kv"}),
     Overrides = {}
